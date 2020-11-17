@@ -10,6 +10,7 @@ WORKS ONLY WITH 64-Bit compliers that support SIMD instructions (_umul128). (Vis
 Example:
 
 uint64_t k[4] = {0x82ccd56528bbb843, 0xa84c30ee2d7202c9, 0xc14c7574488a98e1, 0x6946cc76445eed61};
+
 uint64_t Px[4], Py[4];
 
 secp256k1_publckey(k, Px, Py);
