@@ -1,6 +1,4 @@
-# secp256k1
-Library to generate elliptic curve SECP256K1 key pair
-
+# Secp256k1 Library
 This is an easy-to-use implementation of Secp256k1 cryptography, 
 implemented purely in C++. With this library, you can quickly create keypairs.
 
