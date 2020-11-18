@@ -12,7 +12,7 @@ uint64_t k[4] = {0x82ccd56528bbb843, 0xa84c30ee2d7202c9, 0xc14c7574488a98e1, 0x6
 
 uint64_t Px[4], Py[4];
 
-secp256k1_publckey(k, Px, Py);
+secp256k1_publickey(k, Px, Py);
 
 //Then print Px, Py to visualize your public point
 
