@@ -4,7 +4,7 @@ realized purely in C++. With this library, you can quickly create keypairs.
 
 No OOP was used. To create new keypair just use secp256k1_publickey function.
 The unusual part of the code was made just to speed up key generation.
-WORKS ONLY WITH 64-Bit compliers that support SIMD instructions (_umul128). (Visual Studio 2019 was used).
+WORKS ONLY WITH 64-Bit compilers that support SIMD instructions (_umul128). (Visual Studio 2019 was used).
 
 Example:
 
